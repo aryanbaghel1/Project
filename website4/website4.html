@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background: url(cooking\ photo.webp);
+        background-repeat: no-repeat;
+        background-size: 1340px 350px;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .img1 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar {
+        display: flex;
+        font-size: 30px;
+
+    }
+
+    .navbar,
+    ul,
+    li {
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar,
+    ul,
+    li,
+    a {
+        display: flex;
+        text-decoration: none;
+        margin: 5px 15px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .aryan {
+        margin: 100px 200px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 35px;
+        opacity: 100%;
+    }
+
+    .voven {
+        margin: -80px -10px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 20px;
+        opacity: 100%;
+        stroke-opacity: 100%;
+    }
+
+    .btn {
+        display: block;
+        margin: 90px auto;
+        width: 90px;
+        height: 25px;
+        background-color: #db1d1d;
+        border: 2px solid black;
+        border-radius: 5px;
+        opacity: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 15px;
+
+    }
+
+
+    /* it is for service */
+
+    .atul {
+        display: block;
+        width: 20%;
+        margin: -30px 555px;
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        display: flex;
+    }
+
+    #box1 {
+        height: 400px;
+        width: 400px;
+        border: 2px solid red;
+        margin: 50px 10px;
+        background-color: #84a7ad;
+        border-radius: 50px;
+    }
+
+    .arin {
+        display: flex;
+        margin: auto;
+        height: 150px;
+        width: 200px;
+        border-radius: 50px;
+
+    }
+
+    .oeen {
+        display: block;
+        margin: 10px 130px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #box2 {
+        height: 400px;
+        width: 400px;
+        border: 2px solid red;
+        margin: 50px 10px;
+        background-color: #84a7ad;
+        border-radius: 50px;
+    }
+
+    .alak {
+        display: flex;
+        margin: auto;
+        height: 150px;
+        width: 200px;
+    }
+
+    .aloov {
+        display: block;
+        margin: 10px 130px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #box3 {
+        height: 400px;
+        width: 400px;
+        border: 2px solid red;
+        margin: 50px 10px;
+        background-color: #84a7ad;
+        border-radius: 50px;
+    }
+
+    .alao {
+        display: flex;
+        margin: auto;
+        height: 150px;
+        width: 200px;
+    }
+
+    .onam {
+        display: block;
+        margin: 10px 130px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* it is for our clients */
+    .boxp {
+        height: 200px;
+        width: 100%;
+        border: 2px solid silver;
+        background: url(our\ clients\ image.jfif) no-repeat center center /cover;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .avinay {
+        display: block;
+        width: 20%;
+        margin: -36px 555px;
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    .imga {
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+        opacity: 100%;
+    }
+
+    .imgb {
+        height: 200px;
+        width: 200px;
+        margin: 0px;
+        opacity: 100%;
+    }
+
+    .imgc {
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+        opacity: 100%;
+    }
+
+    .imgd {
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+        opacity: 100%;
+    }
+
+    .imge {
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+        opacity: 100%;
+    }
+
+    /* it is for contact us */
+    .anok {
+        width: 100%;
+        height: 500px;
+        background: url(contact_img.jpg) no-repeat center center /cover;
+    }
+
+    .anoki {
+        display: block;
+        width: 20%;
+        margin: 1px 555px;
+        font-size: 30px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+    }
+
+    /* it is for form */
+
+    .arun {
+        font-size: 20px;
+        margin: 10px 405px;
+    }
+
+    .viivek {
+        margin: 10px 407px;
+        width: 400px;
+        border-radius: 5px;
+        text-align: center;
+        height: 25px;
+    }
+
+    .nikhil {
+        font-size: 20px;
+        margin: 10px 405px;
+    }
+
+    .vovek {
+        margin: 10px 407px;
+        width: 400px;
+        border-radius: 5px;
+        text-align: center;
+        height: 25px;
+    }
+
+    .komal {
+        font-size: 20px;
+        margin: 10px 405px;
+    }
+
+    .koyal {
+        margin: 10px 407px;
+        width: 400px;
+        border-radius: 5px;
+        text-align: center;
+        height: 25px;
+    }
+
+    .sachin {
+        font-size: 20px;
+        margin: 10px 405px;
+    }
+
+    .sachin1 {
+        margin: 10px 407px;
+        width: 400px;
+        border-radius: 5px;
+        text-align: center;
+        height: 25px;
+    }
+
+    .btna {
+        background-color: rgb(207, 166, 105);
+        width: 350px;
+        height: 30px;
+        margin: 10px 438px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <!-- it is for home -->
+    <div class="container">
+        <section id="home">
+            <div class="navbar">
+                <img class="img1" src="logo.png" alt="">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Our Service">Service</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact-Us">Contact-Us</a></li>
+                </ul>
+            </div>
+            <section class="left">
+                <h1 class="aryan">Welcome to my Online Meal</h1>
+                <p class="voven">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quaerat sed tenetur
+                    distinctio illum
+                    quis ab, exercitationem sit ea tempore!</p>
+            </section>
+            <button class="btn">Order Now</button>
+        </section>
+    </div>
+    <!-- it is for service -->
+    <div class="mobo">
+        <h1 class="atul">Our Services</h1>
+    </div>
+    <div class="box">
+        <div id="box1">
+            <img class="arin" src="pizza.png" alt="">
+            <section class="oeen">Food Ordering</section>
+            <p class="onan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laboriosam beatae nulla hic
+                suscipit, repellendus quos, exercitationem tempore incidunt atque provident quidem asperiores. Vel
+                libero mollitia doloribus culpa autem maxime ipsum laborum beatae eos obcaecati doloremque in animi
+                consequuntur inventore nobis ullam facilis voluptatem, fugit pariatur enim similique atque? Dolore
+                quibusdam architecto fuga saepe suscipit magni repellat aliquid vero dignissimos corporis.</p>
+        </div>
+        <div id="box2">
+            <img src="food catering.png" alt="" class="alak">
+            <section class="aloov">Food Catering</section>
+            <p class="ppoo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facilis, asperiores magni
+                possimus iure fuga, non aperiam eligendi, amet dolores quo optio deserunt nam totam. Adipisci odio
+                pariatur assumenda nulla veniam reiciendis quos dicta, eius expedita in fugiat quae laudantium ad ea
+                sequi. Saepe praesentium officia quod esse, ratione sunt accusantium assumenda dolorum quisquam autem
+                tempore culpa consequuntur atque iure cum dolorem beatae pariatur ipsum nemo obcaecati totam earum!.</p>
+        </div>
+        <div id="box3">
+            <img src="delivery.png" alt="" class="alao">
+            <section class="onam">Bulk Ordering</section>
+            <p class="lone">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quam in provident delectus
+                velit vero doloribus, nostrum optio. Ducimus nulla accusantium quisquam dignissimos quia modi doloribus
+                ad, excepturi nesciunt perferendis, magni tempore aspernatur voluptas quo tempora rem commodi sunt quod
+                ab praesentium laboriosam! Quasi dolorem inventore quos sint ad in quibusdam debitis quaerat magni
+                reiciendis consequatur aliquam assumenda voluptas, aperiam temporibus eum, officiis quisquam dolorum
+                ullam.</p>
+        </div>
+    </div>
+    <!-- it is for our client -->
+    <div class="shiva">
+        <h1 class="avinay">Our Clients</h1>
+        <section class="boxp">
+            <img src="apple.png" alt="" class="imga">
+            <img src="microsoft.png" alt="" class="imgb">
+            <img src="skype.png" alt="" class="imgc">
+            <img src="shopping.png" alt="" class="imgd">
+            <img src="dell.png" alt="" class="imge">
+        </section>
+    </div>
+    <!-- it is for contact us -->
+    <div class="anok">
+        <h1 class="anoki">Contact-Us</h1>
+        <form action="backend.php" class="anek">
+            <div class="formgroup">
+                <label class="arun" for="name">Name:</label>
+                <br>
+                <input type="text" class="viivek" placeholder="Enter Your Name">
+            </div>
+            <br>
+            <div class="formgroup">
+                <label for="E-mail" class="nikhil">E-Mail:</label>
+                <br>
+                <input type="email" class="vovek" placeholder="Enter Your Email">
+            </div>
+            <br>
+            <div class="formgroup">
+                <label for="phone number" class="komal">Phone Number:</label>
+                <br>
+                <input type="number" class="koyal" placeholder="Enter Your Phone Number">
+            </div>
+            <br>
+            <div class="formgroup">
+                <label for="message" class="sachin">Message:</label>
+                <br>
+                <textarea class="sachin1" placeholder="Enter Your Message"></textarea>
+            </div>
+            <button class="btna">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
